@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+     font-family: "Poppins", system-ui;
+     margin-top: 2rem;
+}
+
+.content{
+    max-width: 600px;
+    margin-inline: auto;
+    text-align: center;
+   }
+
+   h1{
+    line-height: 1.2;
+    font-size: clamp(2rem,1.4222rem + 1.7778vw,3rem);
+   }
+
+   p{
+    line-height: 1.3;
+    font-size: 20px;
+    margin-block: 1.5rem;
+   }
+
+   .content-1{
+    background-color: rgb(58, 58, 255);
+    width: 100vw;
+    height: 300px;
+}
+
+section{
+    max-width: 720px;
+    margin-inline: auto;
+}
+
+h2{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+.about{
+    line-height: 1.3;
+}
+
+button{
+    color: white;
+    width: 150px;
+    padding: 0.9rem;
+    text-align: center;
+    background-color: blue;
+    border-radius: 10px;
+    align-items: center;
+    border: none;
+    margin-inline: auto;
+    margin-top:1rem ;
+}
+
+ul{
+    padding-left: 1.5rem;
+    font-size: 18px;
+}
+
+.plan-1{
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.plan-2{
+    font-size: 18px;
+}
+
+small{
+    font-size: 1rem;
+}
+
+@media  (max-width: 760px){
+    section{
+        padding-inline: 1rem;
+    }
+
+    .content{
+      margin-inline: none;
+      text-align: left;
+      padding-inline: 1rem;
+    }
+}
